@@ -150,7 +150,7 @@ CONFIGURATION_VERSION=${CONFIGURATION_VERSION-$OPENEDX_RELEASE}
 ##
 cd /var/tmp
 git clone https://github.com/ramshankar1988/edux.git
-cd configuration
+cd edux
 git checkout $CONFIGURATION_VERSION
 git pull
 
