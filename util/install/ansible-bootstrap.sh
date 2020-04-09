@@ -22,7 +22,7 @@ if [[ -z "${ANSIBLE_VERSION}" ]]; then
 fi
 
 if [[ -z "${CONFIGURATION_REPO}" ]]; then
-  CONFIGURATION_REPO="https://github.com/ramshankar1988/configuration.git"
+  CONFIGURATION_REPO="https://github.com/ramshankar1988/edux.git"
 fi
 
 if [[ -z "${CONFIGURATION_VERSION}" ]]; then
