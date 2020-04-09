@@ -147,7 +147,7 @@ CONFIGURATION_VERSION=${CONFIGURATION_VERSION-$OPENEDX_RELEASE}
 ## Clone the configuration repository and run Ansible
 ##
 cd /var/tmp
-git clone https://github.com/ramshankar1988/configuration
+git clone https://github.com/ramshankar1988/configuration.git
 cd configuration
 git checkout $CONFIGURATION_VERSION
 git pull
